@@ -12,7 +12,7 @@ import Footer from './components/footer';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar />   
       <Routes>
         <Route path="/live" element={<Live />} />
       </Routes>
